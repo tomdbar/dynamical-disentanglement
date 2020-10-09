@@ -337,6 +337,7 @@ class Cars3D(FactorisedDataset):
     available at : http://www.scottreed.info/files/nips2015-analogy-data.tar.gz
     '''
 
+    _path = "./_data/3dcars"
     _all_factor_names = ['elevation', 'azimuth', 'object']
     _all_factor_dims = [4, 23, 199]
 
@@ -402,6 +403,7 @@ class Shapes3D(FactorisedDataset):
     https://storage.googleapis.com/3d-shapes/3dshapes.h5
     '''
 
+    _path = "./_data/3dshapes.h5"
     _all_factor_names = ['floor_hue', 'wall_hue', 'object_hue', 'scale', 'shape', 'orientation']
     _all_factor_dims = [10, 10, 10, 8, 4, 15]
 
