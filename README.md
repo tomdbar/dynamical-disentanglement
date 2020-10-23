@@ -41,7 +41,7 @@ The goal of this project is to provide a framework for modelling the systems des
 
 ##### Requirements
 
-The underlying neural networks requrie [PyTorch](https://pytorch.org/).  For the three environments provided, 3DCars and 3DShapes require [PIL](http://www.pythonware.com/products/pil/) and [h5py](https://www.h5py.org/), respectively, to load the images (GridWorld has no additional requirements).
+The underlying neural networks require [PyTorch](https://pytorch.org/).  For the three environments provided, 3DCars and 3DShapes require [PIL](http://www.pythonware.com/products/pil/) and [h5py](https://www.h5py.org/), respectively, to load the images (GridWorld has no additional requirements).
 
 Otherwise, all other required packages - numpy, matplotlib, seaborn if you want pretty plots etc - are standard, however full details of the environment used locally during testing are provided in [environment.yml](environment.yml).
 
